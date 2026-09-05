@@ -1,16 +1,18 @@
-## Hi there 👋
+# anna-zen-ship-it
 
-<!--
-**anna-zen-ship-it/anna-zen-ship-it** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+✨ Experimental creative sandbox — Zen-style storytelling, bilingual narration (Thai/English), and mindful visuals.  
+🚀 Daily scripts, prompts, and creative notes for ZenStoryTh + ONCE วันละตอน.  
 
-Here are some ideas to get you started:
+## Project Goals
+- Explore narration and sound design
+- Share bilingual drafts and prompts
+- Refine practice through repetition
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Repository Structure
+- `scripts/` → Episode drafts  
+- `prompts/` → Visual & sound prompts  
+- `notes/` → Creative notes, checklists, storyboard  
+- `assets/` → Images and audio files  
+
+---
+🌸 Welcome to my creative sandbox — a space to ship ideas and grow through practice.
