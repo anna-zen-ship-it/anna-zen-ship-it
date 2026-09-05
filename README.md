@@ -1,24 +1,31 @@
-# anna-zen-ship-it
+# My GG Projects
 
-✨ Experimental creative sandbox — Zen-style storytelling, bilingual narration (Thai/English), and mindful visuals.  
-🚀 Daily scripts, prompts, and creative notes for ZenStoryTh + ONCE วันละตอน.  
-
-## Project Goals
-- Explore narration and sound design
-- Share bilingual drafts and prompts
-- Refine practice through repetition
-
-## Repository Structure
-- `scripts/` → Episode drafts  
-- `prompts/` → Visual & sound prompts  
-- `notes/` → Creative notes, checklists, storyboard  
-- `assets/` → Images and audio files  
+🍵 Experimental creative sandbox — Zen-style storytelling, bilingual narration (Thai/English), and mindful visuals.  
+🎬 Daily scripts, prompts, and creative notes.
 
 ---
-🌸 Welcome to my creative sandbox — a space to ship ideas and grow through practice.
-##🌿 Link the boat to GG Studio
-[View on Google AI Studio](https://aistudio.google.com/apps/fc6eade1-c787-4bcf-b04e-514ca4b655d7?project=gen-lang-client-0636692582&showAssistant=true&showPreview=true)
-## One Fruit Per Tree — The Gift of Perfection
-[View on Google AI Studio](https://ai.studio/apps/d7920665-4435-418a-ad83-9d1685972f09)
 
+## The Man in the Boat — Wisdom Story & TTS
+[View on Google AI Studio](https://aistudio.google.com/apps/fc6eade1-c787-4bcf-b04e-514ca4b655d7?showPreview=true&showAssistant=true)  
 *(Demo Mode — safe to explore 🌸)*
+
+---
+
+## One Fruit Per Tree — The Gift of Perfection
+[View on Google AI Studio](https://ai.studio/apps/d7920665-4435-418a-ad83-9d1685972f09)  
+*(Demo Mode — safe to explore 🌸)*
+
+---
+
+## Deployment Notes
+
+### Root Cause
+When bundling into CommonJS via esbuild (`dist/server.cjs`), `import.meta.url` is undefined.  
+This caused `fileURLToPath(import.meta.url)` to throw a fatal error on Cloud Run startup.
+
+### Resolution
+- Removed `fileURLToPath(import.meta.url)` and `__filename/__dirname` from `server.ts`.
+- Utilized `process.cwd()` for static file path resolution:
+  ```js
+  path.join(process.cwd(), 'dist')
+  
