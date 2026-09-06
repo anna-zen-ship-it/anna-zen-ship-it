@@ -39,4 +39,20 @@ Blending Zen priest father’s warmth with cinematic audio storytelling.
 🔗 [Open Tsukemen Narration Demo](https://aistudio.google.com/apps/96b7e278-bc3b-4504-808d-ab6ed58a2b71?showAssistant=true&showPreview=true)
 
 🌿 *This is an experimental branch of the Zen priest father repo — safe to explore, no real API calls.*
+## ⚠️ Known Limitations
+In AI Studio, small errors may appear:  
+- Flash TTS quota reached → fallback to acoustic narration  
+- WebSocket closed → hot‑reload disabled by platform  
 
+These are natural boundaries of the demo environment,  
+to be embraced lightly, without fear.  
+
+---
+
+🌿 *Here, every project is a step in practice.  
+Errors are not obstacles, but gentle reminders:  
+the path of creation is imperfect, yet alive.*
+---
+
+🌊 *A ship of ideas, sailing through limits —  
+guided by calm, carried by practice, alive in imperfection.*
