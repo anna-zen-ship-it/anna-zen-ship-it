@@ -28,4 +28,15 @@ This caused `fileURLToPath(import.meta.url)` to throw a fatal error on Cloud Run
 - Utilized `process.cwd()` for static file path resolution:
   ```js
   path.join(process.cwd(), 'dist')
-  
+  ---
+
+## 🍜 The Origin of Tsukemen — Narration & TTS Story
+“The unseen heart of ramen, revealed only when the soul is ready.”
+
+An experimental narration & TTS project inspired by Kazuo Yamagishi, the God of Ramen.  
+Blending Zen priest father’s warmth with cinematic audio storytelling.  
+
+🔗 [Open Tsukemen Narration Demo](https://aistudio.google.com/apps/96b7e278-bc3b-4504-808d-ab6ed58a2b71?showAssistant=true&showPreview=true)
+
+🌿 *This is an experimental branch of the Zen priest father repo — safe to explore, no real API calls.*
+
