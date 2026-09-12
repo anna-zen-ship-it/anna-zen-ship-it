@@ -56,3 +56,16 @@ the path of creation is imperfect, yet alive.*
 
 🌊 *A ship of ideas, sailing through limits —  
 guided by calm, carried by practice, alive in imperfection.*
+---
+
+## 🎆 Hanabi — Fleeting Beauty (Chapter 01)
+*A bilingual narration capturing the fleeting beauty of fireworks — mono no aware.*
+
+🔗 [Open Hanabi Demo on Google AI Studio](https://aistudio.google.com/apps/35eb5c3a-f5b5-4e6e-b3c8-ef1e55a341bf?showPreview=true&showAssistant=true)
+
+### Notes
+- Voices: Anna (youthful, lively), Father (deep, resonant Zen tone)  
+- Languages: Thai (accurate), Japanese (Tamaya! Kagiya!), English (approximate)  
+- Limitation: English TTS may pronounce “Kagiya” as *Kaniya*, but Thai voice is 100% correct.  
+
+🌿 *Fireworks bloom and fade — beauty that lives only in memory.*
